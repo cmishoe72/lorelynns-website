@@ -1,0 +1,51 @@
+/* GLOBAL VARIBLES */
+$main-fonts: "Kite One";
+$pastel-green: #9dffb0;
+$pastel-blue: #81f1f7;
+$pastel-brown: #e4b06c;
+$light-tan: #fff4e1;
+
+body, html {
+   background-color: $light-tan;
+   font-family: $main-fonts;
+   height: 100px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+}
+
+.centered {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+ }
+
+ .pastel-blue-border {
+    border: solid #81f1f7;
+ }
+
+
+
+ nav {
+   background-color: $pastel-brown;
+ }
+
+
+/* MEDIA QUERIES */
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }

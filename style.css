@@ -1,0 +1,40 @@
+/* GLOBAL VARIBLES */
+body, html {
+  background-color: #fff4e1;
+  font-family: "Kite One";
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.pastel-blue-border {
+  border: solid #81f1f7;
+}
+
+nav {
+  background-color: #e4b06c;
+}
+
+/* MEDIA QUERIES */
+/*# sourceMappingURL=style.css.map */

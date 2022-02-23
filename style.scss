@@ -8,7 +8,7 @@ $light-tan: #fff4e1;
 body, html {
    background-color: $light-tan;
    font-family: $main-fonts;
-   height: 100px;
+   
    margin: 0;
    padding: 0;
    border: 0;
@@ -29,11 +29,11 @@ body, html {
     border: solid #81f1f7;
  }
 
-
-
  nav {
    background-color: $pastel-brown;
  }
+
+
 
 
 /* MEDIA QUERIES */
@@ -48,4 +48,14 @@ body, html {
 @media (min-width: 992px) { }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+   #main-doc {
+   padding-top: 1%;
+   position: absolute;
+   margin-left: 26%;
+ }
+
+ #info-side {
+   position: absolute;
+ }
+}

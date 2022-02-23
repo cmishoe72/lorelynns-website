@@ -2,7 +2,6 @@
 body, html {
   background-color: #fff4e1;
   font-family: "Kite One";
-  height: 100px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -37,4 +36,14 @@ nav {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 1200px) {
+  #main-doc {
+    padding-top: 1%;
+    position: absolute;
+    margin-left: 26%;
+  }
+  #info-side {
+    position: absolute;
+  }
+}
 /*# sourceMappingURL=style.css.map */

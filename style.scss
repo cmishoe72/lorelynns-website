@@ -33,8 +33,27 @@ body, html {
    background-color: $pastel-brown;
  }
 
+#projects {
+  text-align: center;
+  padding: 10rem 2rem;
+  border: solid;
+}
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4.4rem;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  
+}
 
+.project-img {
+  width:60%;
+  padding: 10px;
+}
 
 /* MEDIA QUERIES */
 
